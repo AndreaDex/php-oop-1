@@ -37,7 +37,10 @@ $aQuiet = new Movie('A Quiet Place ','Horror', 2018, 91);
 $aQuiet->setRatings(6);
 var_dump($aQuiet);
 var_dump($aQuiet->getRatings());
-
+$theConjuring = new Movie('THE CONJURING - PER ORDINE DEL DIAVOLO', 'Horror', 2021, 89);
+$theConjuring->setRatings(4);
+var_dump($theConjuring);
+var_dump($theConjuring->getRatings());
 
 $latest = [
     new Movie('A Quiet Place 2','Horror', 2021, 91),
