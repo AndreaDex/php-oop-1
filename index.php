@@ -31,9 +31,14 @@ $latest = [
     <title>OOP 1 </title>
 </head>
 <body>
-    
+  
     <?php foreach ($latest as $movie) : ?>
+    <div>
         <h2><?php echo $movie->title ?></h2>
+        <p>Genere: <?php echo $movie->genre ?></p>
+        <p>Anno :<?php echo $movie->year ?></p>
+        <p>Durata: <?php echo $movie->time ?> min</p>
+    </div>
 
     <?php endforeach ?>
 </body>
